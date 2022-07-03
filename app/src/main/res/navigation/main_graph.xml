@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.hw2_1.MainFragment"
+        android:name="com.example.hw2_1.secondhw.MainFragment"
         android:label="MainFragment"
         tools:layout="@layout/fragment_main">
         <action
@@ -28,16 +28,19 @@
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.hw2_1.ProfileFragment"
+        android:name="com.example.hw2_1.secondhw.ProfileFragment"
         android:label="ProfileFragment"
         tools:layout="@layout/fragment_profile">
         <action
             android:id="@+id/action_profileFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_userInfoFragment"
+            app:destination="@id/userInfoFragment" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.hw2_1.SettingsFragment"
+        android:name="com.example.hw2_1.secondhw.SettingsFragment"
         android:label="SettingsFragment"
         tools:layout="@layout/fragment_settings">
         <action
@@ -46,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/videoFragment"
-        android:name="com.example.hw2_1.VideoFragment"
+        android:name="com.example.hw2_1.secondhw.VideoFragment"
         android:label="VideoFragment"
         tools:layout="@layout/fragment_video">
         <action
@@ -55,7 +58,7 @@
     </fragment>
     <fragment
         android:id="@+id/newsFragment"
-        android:name="com.example.hw2_1.NewsFragment"
+        android:name="com.example.hw2_1.secondhw.NewsFragment"
         android:label="NewsFragment"
         tools:layout="@layout/fragment_news">
         <action
@@ -64,11 +67,19 @@
     </fragment>
     <fragment
         android:id="@+id/musicFragment"
-        android:name="com.example.hw2_1.MusicFragment"
+        android:name="com.example.hw2_1.secondhw.MusicFragment"
         android:label="MusicFragment"
         tools:layout="@layout/fragment_music">
         <action
             android:id="@+id/action_musicFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userInfoFragment"
+        android:name="com.example.hw2_1.thirdhw.UserInfoFragment"
+        android:label="UserInfoFragment" >
+        <action
+            android:id="@+id/action_userInfoFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
 </navigation>

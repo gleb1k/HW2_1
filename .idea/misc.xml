@@ -3,13 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2655" />
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/drawable/ic_baseline_library_music.xml" value="0.2655" />
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.2655" />
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2655" />
         <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/fragment_main.xml" value="0.365625" />
         <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/fragment_music.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/fragment_news.xml" value="0.365625" />
-        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
         <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/fragment_settings.xml" value="0.365625" />
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/fragment_userinfo.xml" value="0.33" />
         <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/fragment_video.xml" value="0.365625" />
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/item_profile.xml" value="0.33" />
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/item_profile_card.xml" value="0.33" />
+        <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/layout/item_profile_v1.xml" value="0.24270833333333333" />
         <entry key="..\:/Users/gleb/AndroidStudioProjects/HW2_1/app/src/main/res/menu/menu_main.xml" value="0.1" />
       </map>
     </option>

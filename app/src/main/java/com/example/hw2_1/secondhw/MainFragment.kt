@@ -1,8 +1,9 @@
-package com.example.hw2_1
+package com.example.hw2_1.secondhw
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import com.example.hw2_1.R
 import com.example.hw2_1.databinding.FragmentMainBinding
 import com.google.android.material.snackbar.Snackbar
 
