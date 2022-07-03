@@ -8,7 +8,6 @@ data class User(
     val url:String = ""
     ){
     override fun toString(): String {
-        return "Id: $id, Name: $name, LastName: $lastName, Information: $information," +
-                " URL: $url"
+        return "Id: $id, Name: $name, LastName: $lastName, Information: $information"
     }
 }

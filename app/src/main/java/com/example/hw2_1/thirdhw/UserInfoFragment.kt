@@ -2,8 +2,10 @@ package com.example.hw2_1.thirdhw
 
 import android.os.Bundle
 import android.view.View
+import androidx.core.net.toUri
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.bumptech.glide.Glide
 import com.example.hw2_1.R
 import com.example.hw2_1.databinding.FragmentUserinfoBinding
 
@@ -17,10 +19,12 @@ class UserInfoFragment : Fragment(R.layout.fragment_userinfo) {
 
         //Принимаю id от профиля и через toString выожу в textView
         val text = arguments?.getString(ARG_TEXT).orEmpty()
+        val url = UserRepository.users[text.toInt()].url
         if (text.isNotEmpty()) {
             binding.textView2.text = "${UserRepository.users[text.toInt()]}"
 
-            //Кнопочка обратно
+            Glide.with(this).load(url).into(binding.imageView);
+            //Кнопочка обратно-
             with(binding) {
                 btnBackFromUserinfo.setOnClickListener {
                     findNavController().navigate(
